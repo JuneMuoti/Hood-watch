@@ -50,7 +50,7 @@ run python3.6 manage.py runserver to run app on local server
 * Bootstrap4
 ## Authors
 
-June Muoti - Initial work - [personal-gallery](https://github.com/JuneMuoti/Hood-watch)
+June Muoti 
 
 
 ## License
