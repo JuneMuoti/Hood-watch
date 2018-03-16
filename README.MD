@@ -19,11 +19,16 @@ Hood-Watch is a web application that allows you to be in the loop about everythi
 * view details of a single neighborhood
 
 ## Usage
+```
+Find a list of different businesses in your neighborhood
+```
+```
+Find Contact Information for the health department near your neighborhood
+```
+```
+Find Contact Information for the  Police authorities near your neighborhoo
+```
 
-```Find a list of different businesses in your neighborhood
-```
-```Find Contact Information for the health department and Police authorities near your neighborhood
-```
 ### Installing
 ```
 Clone  from my github(https://github.com/JuneMuoti/Hood-watch)
