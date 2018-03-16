@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+
+{%block content%}
+<h1 class="uk-text-center">Hood watch reloaded</h1>
+{% for item in post %}
+<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+    <div class="uk-card-media-left uk-cover-container">
+        {% if item.post_image %}
+          <img src="{{item.post_image.url}}" alt="Image" height="100" width="100">
+        {% endif%}
+        <canvas width="600" height="400"></canvas>
+    </div>
+    <div>
+        <div class="uk-card-body">
+            <h3 class="uk-card-title">{{item.title}}</h3>
+            <p>{{item.post}}</p>
+            <p class="uk-article-meta">Written by <a href="#">{{item.posted_by}}</a> on {{item.pub_date}}.</p>
+
+        </div>
+    </div>
+</div>
+{%endfor%}
+{%endblock%}
