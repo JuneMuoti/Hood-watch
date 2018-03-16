@@ -1,4 +1,4 @@
-# INSTAGRAM CLONE
+# HOOD-WATCH
 
 Hood-Watch is a web application that allows you to be in the loop about everything happening in your neighborhood. From contact information of different handyman to meeting announcements or even alerts.
 
@@ -20,7 +20,7 @@ Hood-Watch is a web application that allows you to be in the loop about everythi
 
 ## Usage
 
-```Find a list of different businesses in your neighborhood 
+```Find a list of different businesses in your neighborhood
 
 ```Find Contact Information for the health department and Police authorities near your neighborhood
 ```
