@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+
+{%block content%}
+<div class="uk-grid">
+  {%if user.is_authenticated%}
+  <h2>Welcome to the hood @{{user.username}}</h2>
+  {%endif%}
+  <h2>Welcome to the hoods page </h2>
+</div>
+{%endblock%}
