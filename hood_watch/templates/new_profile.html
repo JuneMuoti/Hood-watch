@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %} {% load staticfiles %}
+
+{%block content%}
+  <div class="uk-card-default uk-card-body uk-width-1-2@m uk-position-top-left uk-margin-large-top uk-margin-large-bottom uk-margin">
+    <img src="https://images.unsplash.com/photo-1475746812396-2b046c18be0e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9c1d0dc5c9e0789f10fc842eea9fa498&auto=format&fit=crop&w=1934&q=80" alt="" >
+
+  <div class="container">
+
+  <form  action="{%url 'new_profile'%}" method="post" enctype="multipart/form-data">
+    {%csrf_token%}
+
+    {% bootstrap_form form%}
+    <input type="submit" class="btn btn-primary btn-lg" value="Create">
+  </form>
+
+   {% block scripts %}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  {% bootstrap_javascript %} {% endblock %}
+</div>
+</div>
+<p>{{profile.name}}</p>
+{%endblock%}
